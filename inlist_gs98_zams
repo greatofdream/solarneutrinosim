@@ -16,7 +16,7 @@
 
   ! save a model at the end of the run
     save_model_when_terminate = .true.
-    save_model_filename = 'gs98.mod'
+    save_model_filename = 'gs98.model'
 
   ! display on-screen plots
     ! pgstar_flag = .true.
