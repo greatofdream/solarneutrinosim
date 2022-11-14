@@ -6,7 +6,10 @@
 
 &star_job
   ! see star/defaults/star_job.defaults
-
+    show_net_reactions_info = .true.
+    list_net_reactions = .true.
+    change_initial_net = .true.      
+    new_net_name = 'pp_and_cno_extras.net'
   ! begin with a pre-main sequence model
     load_saved_model = .true.
     load_model_filename = 'gs98.zams'
@@ -16,7 +19,7 @@
     save_model_filename = 'gs98.mod'
 
   ! display on-screen plots
-    pgstar_flag = .true.
+    ! pgstar_flag = .true.
 
 / ! end of star_job namelist
 
@@ -47,8 +50,8 @@
 
   ! starting specifications
     initial_mass = 1 ! in Msun units
-    initial_z = 0.018
-    initial_y = 0.2701
+    initial_z = 0.0187
+    initial_y = 0.2718
   ! when to stop
     ! stop_near_zams = .true.
     ! Lnuc_div_L_zams_limit = 0.9d0

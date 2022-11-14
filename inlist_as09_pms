@@ -47,8 +47,8 @@
 
   ! starting specifications
     initial_mass = 1 ! in Msun units
-    initial_z = 0.0142
-    initial_y = 0.2703
+    initial_z = 0.0149
+    initial_y = 0.2614
   ! when to stop
     stop_near_zams = .true.
     Lnuc_div_L_zams_limit = 0.9d0
