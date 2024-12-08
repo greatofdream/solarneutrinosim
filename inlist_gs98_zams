@@ -39,8 +39,8 @@
   ! reference metallicity necessary to calculate element variations.
   ! Physically, this usually corresponds to the initial metallicity
   ! of the star.
-  Zbase = 0.02
-  ! kap_file_prefix = 'gs98'
+  Zbase = 0.0187
+  kap_file_prefix = 'gs98'
 
 / ! end of kap namelist
 
@@ -49,9 +49,9 @@
   ! see star/defaults/controls.defaults
 
   ! starting specifications
-    initial_mass = 1 ! in Msun units
-    initial_z = 0.0187
-    initial_y = 0.2718
+  ! initial_mass = 1 ! in Msun units
+  ! initial_z = 0.0187
+  ! initial_y = 0.2718
   ! when to stop
     ! stop_near_zams = .true.
     ! Lnuc_div_L_zams_limit = 0.9d0

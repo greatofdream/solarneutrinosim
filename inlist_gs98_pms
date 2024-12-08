@@ -35,8 +35,8 @@
   ! reference metallicity necessary to calculate element variations.
   ! Physically, this usually corresponds to the initial metallicity
   ! of the star.
-  Zbase = 0.02
-  ! kap_file_prefix = 'gs98'
+  Zbase = 0.0187
+  kap_file_prefix = 'gs98'
 
 / ! end of kap namelist
 
@@ -50,7 +50,7 @@
     initial_y = 0.2718
   ! when to stop
     stop_near_zams = .true.
-    Lnuc_div_L_zams_limit = 0.9d0
+    Lnuc_div_L_zams_limit = 0.99d0
     ! stop when the luminosity has equal to current luminosity.
     ! in order to skip pre-ms, this limit only applies when ``L_nuc`` > 0.01*L
     ! log_L_upper_limit = 0
