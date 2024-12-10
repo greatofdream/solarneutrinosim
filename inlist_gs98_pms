@@ -64,7 +64,8 @@
   ! element diffusion
 
   ! mlt
-
+    use_Ledoux_criterion = .true.
+    do_conv_premix = .true.
   ! mixing
 
   ! timesteps

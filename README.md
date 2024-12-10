@@ -31,6 +31,8 @@ kappa_file_prefix = 'oplib_mb22'
 + Model initial: default load the zams model, for pms simulation the initial parameters are set as following:
   + `initial_mass`: 1 sun mass
   + `initial_z`, `initial_y`: refer from MB22 paper.
++ [convection control](https://docs.mesastar.org/en/latest/using_mesa/building_inlists.html#convection-and-convective-boundaries): It seems that mesa-r23.05.1 add the option controlling the convection.
++ mesh control: `star_data_def.inc`
 
 ## Running
 + compile: `./mk`
